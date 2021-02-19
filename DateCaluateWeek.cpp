@@ -93,7 +93,7 @@ int main() {
                 break;
             }
         }
-        printf("%d, %d, %d", year, month, day);
+        printf("%d, %d, %d\n\n", year, month, day);
         int days = buf[year][month][day] - buf[2021][2][19];
         // 今天为星期五，加5
         days += 5;
