@@ -41,6 +41,39 @@ struct Date {
     }
 };
 
+int buf[3001][12][31];
+
+char monthName[13][20] = {
+    "",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+};
+
+char weekName[7][20] = {
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+};
+
+
+
+
+
+
 
 
 
